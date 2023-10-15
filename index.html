@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant's Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+        <nav>
+            <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#qualifications">Qualifications</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact-me">Contact me</a></li>     
+            </ul>
+        </nav>
+    </section> 
+    <header class="header">
+        <nav class="default-nav">
+            <a href="#about-me">About Me</a><a href="#qualifications">Qualifications</a><a href="#technologies">Technologies</a><a href="#hobbies">Hobbies</a><a href="#contact-me">Contact me</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">Menu</button>
+        </nav>
+    </header>
+    <main class="container">
+        <article class="intro" >
+            <img id="profile-image" src="portfolio photo.png" alt="Profile image - Nishant"/>
+            <h1> Hi, I'm Nishant</h1>
+            <p>I am a <span id="dynamic-text" class="dynamic-text-color"></span></p>
+            <p class="social">
+                <a href="https://www.linkedin.com/in/nishant-nayan-494a35122/" target="_blank">
+                    <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+                <a href="https://twitter.com/Nishant22829252" target="_blank">
+                    <img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/124/124021.png"></a>
+                <a href="https://nishantn31@gmail.com" target="_blank">
+                    <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png?20201210105308"></a>
+            </p>
+        </article>
+        
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I'm a self-motivated, enthusiastic individual who loves technology.</p>
+            <p>In late 2022, I started to learn Python which gave me very big confidence boost and I further went on to learn databases in Python.</p>
+            <p>Later on, I learnt frontend technologies(HTML,CSS,JS) and REACTJS for developing websites.</p>
+            <p>Currently looking for a job/internship in Software Industry for the role of Web Developer.</p>
+        </section>
+        
+        <section id="qualifications">
+            <h2>Qualifications</h2>
+            <ol>
+                <li>B.Tech. in Tool Engineering</li>
+                <li>Python for Everybody Specialization by Coursera</li>
+                <li>Full Stack Development course by DEVSNEST</li>
+            </ol>
+        </section>
+
+        <section id="technologies">
+            <h2>Technologies</h2>
+
+        
+            <section class="container">
+                <section class="card">
+                    <header>
+                        <h1>Frontend</h1>
+                    </header>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </section>
+                <section class="card">
+                    <header>
+                        <h1>Backend</h1>
+                    </header>
+                    <ul>
+                        <li>Python</li>
+                        <li>JSON</li>
+                        <li>Django</li>
+                    </ul>
+                </section>
+                <section class="card">
+                    <header>
+                        <h1>Database</h1>
+                    </header>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>API</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing video games</li>
+                <li>Reading Tech Magazines</li>
+                <li>Listening to music</li>   
+            </ul>
+        </section>
+        <section id="contact-me">
+            <form name="contact" id="contact" method="POST" data-netlify="true">
+                <h1>Contact Me</h1>
+                <section>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required/>
+                </section>
+                <section>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" />
+                </section>
+                <section>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" required> </textarea>
+                </section>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Portfolio created with ❤️ by Nishant Nayan ©2023
+    </footer>
+    <script src="name.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html> 
+
+            
+    
+                
