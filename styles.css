@@ -95,13 +95,13 @@ section{
 }
 #profile-image{
     height: 500px;
-    width: 370px;
+    width: 400px;
     filter: drop-shadow(4px 5px 18px black);
 
 }
 .social img{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 
 }
 .social a {
